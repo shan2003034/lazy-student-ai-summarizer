@@ -34,7 +34,7 @@ public class LectureController {
     public ResponseEntity<ApiResponse> uploadLecture(@RequestParam("file") MultipartFile file,
                                                      @RequestParam("title") String title) throws Exception {
 
-        String transcript = audioTranscriptionService.transcribeAudio(file);
+        String transcript = audioTranscriptionService.processFile(file);
         String aiResult = aiSummaryService.generateSummaryAndFlashcards(transcript);
 
         LectureSummary summary = new LectureSummary();
@@ -54,5 +54,11 @@ public class LectureController {
     public ResponseEntity<List<LectureSummary>> getAllSummaries() {
         List<LectureSummary> summaries = repository.findAll();
         return ResponseEntity.ok(summaries);
+    }
+
+    @DeleteMapping("/{id}")
+    public ResponseEntity<ApiResponse> deleteLecture(@PathVariable Long id) {
+        repository.deleteById(id);
+        return ResponseEntity.ok(new ApiResponse("success", "Lecture deleted successfully!", null));
     }
 }

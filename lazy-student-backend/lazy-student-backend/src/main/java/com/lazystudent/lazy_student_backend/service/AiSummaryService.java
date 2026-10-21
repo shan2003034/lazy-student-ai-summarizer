@@ -14,12 +14,12 @@ public class AiSummaryService {
     }
 
     public String generateSummaryAndFlashcards(String transcript) {
-
         String promptInstruction = "You are a helpful AI tutor for a university student. " +
-                "Read the following lecture transcript. First, provide a clear summary using bullet points. " +
-                "Then, create 5 flashcards (Question & Answer format) to help the student study.\n\n" +
+                "Read the following lecture transcript.\n" +
+                "1. First, provide a clear summary using bullet points.\n" +
+                "2. Then, strictly print exactly this text: ---FLASHCARDS---\n" +
+                "3. Finally, create 5 flashcards using exactly this format on new lines: Q: [Question] | A: [Answer]\n\n" +
                 "Lecture Transcript:\n" + transcript;
-
 
         return chatModel.call(promptInstruction);
     }
