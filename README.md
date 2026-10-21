@@ -5,12 +5,7 @@
   <h1>🦥 Lazy Student AI</h1>
   <p><strong>Let Local AI Do The Heavy Lifting. Turn Hours of Lectures into Flashcards & Summaries.</strong></p>
   
-  <p>
-    <a href="https://github.com/shan2003034/lazy-student-ai-summarizer/stargazers"><img src="https://img.shields.io/github/stars/shan2003034/lazy-student-ai-summarizer?style=for-the-badge&color=22c55e" alt="Stars"></a>
-    <a href="https://github.com/shan2003034/lazy-student-ai-summarizer/network/members"><img src="https://img.shields.io/github/forks/shan2003034/lazy-student-ai-summarizer?style=for-the-badge&color=10b981" alt="Forks"></a>
-    <a href="https://github.com/shan2003034/lazy-student-ai-summarizer/issues"><img src="https://img.shields.io/github/issues/shan2003034/lazy-student-ai-summarizer?style=for-the-badge&color=059669" alt="Issues"></a>
-    <img src="https://img.shields.io/badge/Hacktoberfest-2026-blueviolet?style=for-the-badge" alt="Hacktoberfest">
-  </p>
+
 </div>
 
 ## 📌 About The Project
