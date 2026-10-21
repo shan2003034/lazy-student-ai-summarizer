@@ -35,6 +35,51 @@ No cloud, no API keys, no subscription fees. It runs entirely on your local mach
 
 ---
 
+## 📸 System Screenshots
+ 
+<div align="center">
+<table>
+<tr>
+<td align="center">
+<img width="1887" height="865" alt="Image" src="https://github.com/user-attachments/assets/0beed735-6d26-45e9-a4ce-3d70a3bb8e79" /><br />
+<b>Landing Page</b>
+</td>
+<td align="center">
+<img width="1887" height="776" alt="Image" src="https://github.com/user-attachments/assets/ab1dab73-c098-48af-98b9-487187423181" /><br />
+<b>Landing Page</b>
+</td>
+<td align="center">
+<img width="1868" height="697" alt="Image" src="https://github.com/user-attachments/assets/aeabbaad-7a5d-4c32-869d-0e70316111d2" /><br />
+<b>Landing Page</b>
+</td>
+<td align="center">
+<img width="1847" height="846" alt="Image" src="https://github.com/user-attachments/assets/108f1dfc-7035-483a-9cc7-cabbc9dbbd5b" /><br />
+<b>Landing Page</b>
+</td>
+</tr>
+</table>
+<details>
+<summary><b>📷 Click to see more screenshots</b></summary>
+<br />
+<table>
+<tr>
+<td align="center">
+<img width="1920" height="969" alt="Image" src="https://github.com/user-attachments/assets/2ea10b70-ee63-4e56-826a-972510e70c4d" /><br />
+<b>Summary Page</b>
+</td>
+<td align="center">
+<img width="1920" height="1175" alt="Image" src="https://github.com/user-attachments/assets/b72a5c5b-4476-4200-9431-e8492b0790d7" /><br />
+<b>Summary Page</b>
+</td>
+
+<br />
+
+ 
+</table>
+
+
+</div>
+
 ## 📐 System Architecture
 
 Here is how the data flows through the application locally:
